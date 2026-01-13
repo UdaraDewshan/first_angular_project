@@ -6,10 +6,11 @@ import { EducationSectionComponent } from '../../components/education-section/ed
 import { ProjectSectionComponent } from '../../components/project-section/project-section.component';
 import { SkillSectionComponent } from '../../components/skill-section/skill-section.component';
 import { ContactSectionComponent } from '../../components/contact-section/contact-section.component';
+import { FooterSectionComponent } from '../../components/footer-section/footer-section.component';
 
 @Component({
   selector: 'app-home',
-  imports: [NavBarComponent, HeadSectionComponent,AboutSectionComponent,EducationSectionComponent,ProjectSectionComponent,SkillSectionComponent,ContactSectionComponent],
+  imports: [NavBarComponent, HeadSectionComponent,AboutSectionComponent,EducationSectionComponent,ProjectSectionComponent,SkillSectionComponent,ContactSectionComponent,FooterSectionComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
