@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
 import { HeadSectionComponent } from '../../components/head-section/head-section.component';
 import { AboutSectionComponent } from '../../components/about-section/about-section.component';
+import { EducationSectionComponent } from '../../components/education-section/education-section.component';
 
 @Component({
   selector: 'app-home',
-  imports: [NavBarComponent, HeadSectionComponent,AboutSectionComponent],
+  imports: [NavBarComponent, HeadSectionComponent,AboutSectionComponent,EducationSectionComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
