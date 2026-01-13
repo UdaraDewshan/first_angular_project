@@ -3,10 +3,11 @@ import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
 import { HeadSectionComponent } from '../../components/head-section/head-section.component';
 import { AboutSectionComponent } from '../../components/about-section/about-section.component';
 import { EducationSectionComponent } from '../../components/education-section/education-section.component';
+import { ProjectSectionComponent } from '../../components/project-section/project-section.component';
 
 @Component({
   selector: 'app-home',
-  imports: [NavBarComponent, HeadSectionComponent,AboutSectionComponent,EducationSectionComponent],
+  imports: [NavBarComponent, HeadSectionComponent,AboutSectionComponent,EducationSectionComponent,ProjectSectionComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
