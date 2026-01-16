@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { ContactComponent } from '../../pages/contact/contact.component';
 
 @Component({
   selector: 'app-nav-bar',
