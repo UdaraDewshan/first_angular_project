@@ -1,0 +1,36 @@
+.navbar {
+    background: linear-gradient(90deg, #052f6e, #01156e);
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 8px;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #ffc107;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar .nav-link.active {
+    color: #ffc107 !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link.active::after {
+    width: 100%;
+}

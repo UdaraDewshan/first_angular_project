@@ -4,6 +4,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { EducationComponent } from './pages/education/education.component';
 import { ProjectComponent } from './pages/project/project.component';
+import { SkillComponent } from './pages/skill/skill.component';
 
 export const routes: Routes = [
     {
@@ -25,5 +26,9 @@ export const routes: Routes = [
     {
         path:"project",
         component: ProjectComponent
+    },
+    {
+        path:"skill",
+        component: SkillComponent
     }
 ];

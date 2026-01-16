@@ -3,11 +3,11 @@ import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
 import { FooterSectionComponent } from '../../components/footer-section/footer-section.component';
 
 @Component({
-  selector: 'app-contact',
+  selector: 'app-skill',
   imports: [NavBarComponent,FooterSectionComponent],
-  templateUrl: './contact.component.html',
-  styleUrl: './contact.component.css'
+  templateUrl: './skill.component.html',
+  styleUrl: './skill.component.css'
 })
-export class ContactComponent {
+export class SkillComponent {
 
 }
